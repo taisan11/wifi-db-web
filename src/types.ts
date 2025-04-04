@@ -1,0 +1,1 @@
+export type securityType = 'WPA'|'WPA2'|'WPA3'|'WEP'|'Other'|'None';

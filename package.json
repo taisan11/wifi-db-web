@@ -1,0 +1,20 @@
+{
+  "name": "wifi-db-web",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@hono/valibot-validator": "^0.5.2",
+    "drizzle-orm": "^0.41.0",
+    "hono": "^4.7.5",
+    "nanoid": "^5.1.5",
+    "valibot": "^1.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "@types/bun": "^1.2.8",
+    "drizzle-kit": "^0.30.6",
+    "wrangler": "^4.4.0"
+  }
+}
