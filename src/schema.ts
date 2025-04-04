@@ -9,6 +9,8 @@ export const wifiNetworks = sqliteTable('wifi_networks', {
     password: text('password'),
     security: text('security').notNull().$type<securityType>(),
     captive:integer('captive',{mode:"boolean"}).notNull(),
+    latitude: integer('latitude').notNull(),
+    longitude: integer('longitude').notNull(),
     createdAt: integer('created_at', { mode: 'timestamp' }).notNull(),
     updatedAt: integer('updated_at', { mode: 'timestamp' }).notNull(),
 });
